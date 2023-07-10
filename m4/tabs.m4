@@ -4,7 +4,7 @@ AC_DEFUN([MAX_TABS], [10])
 dnl Define a macro for get num for tabs
 AC_DEFUN([GET_NUM_TABS], [AC_SUBST([NUM_TABS], [5])])
 
-dnl Definir una macro para agregar una nueva pestaña
+dnl New tab
 AC_DEFUN([ADD_TAB], [
     AC_SUBST([TAB_TITLE], [$1])
     AC_SUBST([TAB_CONTENT], [$2])
